@@ -1,6 +1,10 @@
-# موقع بوت التداول الذكي
+# Trailing.bot - موقع بوت التداول الذكي
 
 موقع احترافي لبيع بوت التداول الخاص بك مع واجهة عربية حديثة وجذابة.
+
+## 🌐 عرض الموقع مباشرة
+
+**الموقع متاح على**: [https://[YOUR-USERNAME].github.io/trailing-bot](https://[YOUR-USERNAME].github.io/trailing-bot)
 
 ## المميزات
 
@@ -10,6 +14,7 @@
 - ⚡ سريع ومحسن للأداء
 - 🔒 آمن ومحمي
 - 📊 إحصائيات وتقارير مفصلة
+- 🎯 تقنية التريلينج ستوب المتطورة
 
 ## التقنيات المستخدمة
 
@@ -19,7 +24,75 @@
 - **Lucide React** - أيقونات حديثة
 - **Framer Motion** - حركات وتأثيرات
 
-## التثبيت والتشغيل
+## النشر على GitHub Pages
+
+### الخطوة 1: إنشاء Repository على GitHub
+
+1. اذهب إلى [GitHub](https://github.com)
+2. اضغط على "New repository"
+3. سمِّه `trailing-bot`
+4. اتركه public
+5. اضغط "Create repository"
+
+### الخطوة 2: رفع الكود إلى GitHub
+
+```bash
+# تهيئة Git
+git init
+
+# إضافة الملفات
+git add .
+
+# عمل commit
+git commit -m "Initial commit - Trailing.bot website"
+
+# إضافة remote
+git remote add origin https://github.com/[YOUR-USERNAME]/trailing-bot.git
+
+# رفع الكود
+git push -u origin main
+```
+
+### الخطوة 3: تثبيت التبعيات والنشر
+
+```bash
+# تثبيت التبعيات
+npm install
+
+# النشر على GitHub Pages
+npm run deploy
+```
+
+### الخطوة 4: تفعيل GitHub Pages
+
+1. اذهب إلى repository على GitHub
+2. اضغط على "Settings"
+3. ابحث عن "Pages" في القائمة الجانبية
+4. في "Source" اختر "Deploy from a branch"
+5. اختر branch: `gh-pages`
+6. اضغط "Save"
+
+## النشر على Vercel (أسهل وأسرع)
+
+### الطريقة الأولى: عبر Vercel Dashboard
+
+1. اذهب إلى [Vercel](https://vercel.com)
+2. اضغط "New Project"
+3. اربط حساب GitHub
+4. اختر repository `trailing-bot`
+5. اضغط "Deploy"
+
+### الطريقة الثانية: عبر Vercel CLI
+
+```bash
+# تثبيت Vercel CLI
+npm i -g vercel
+
+# النشر
+vercel
+```
+
+## التثبيت والتشغيل المحلي
 
 ### المتطلبات الأساسية
 
@@ -30,8 +103,8 @@
 
 1. **استنساخ المشروع**
    ```bash
-   git clone <repository-url>
-   cd trading-bot-website
+   git clone https://github.com/[YOUR-USERNAME]/trailing-bot.git
+   cd trailing-bot
    ```
 
 2. **تثبيت التبعيات**
@@ -72,6 +145,15 @@ src/
 
 ## التخصيص
 
+### تغيير اسم المستخدم في GitHub Pages
+
+عدّل ملف `package.json`:
+```json
+{
+  "homepage": "https://[YOUR-USERNAME].github.io/trailing-bot"
+}
+```
+
 ### تغيير الألوان
 
 يمكنك تخصيص الألوان من خلال تعديل ملف `tailwind.config.js`:
@@ -90,39 +172,11 @@ colors: {
 
 يمكنك تعديل النصوص والمحتوى من خلال تعديل الملفات في مجلد `components/`.
 
-### إضافة صفحات جديدة
-
-1. أنشئ مكون جديد في مجلد `components/`
-2. أضف المكون إلى `App.tsx`
-3. أضف رابط التنقل في `Header.tsx`
-
-## النشر
-
-### Vercel (موصى به)
-
-1. ارفع المشروع إلى GitHub
-2. اربط المشروع بـ Vercel
-3. Vercel سيقوم تلقائياً بنشر المشروع
-
-### Netlify
-
-1. ارفع المشروع إلى GitHub
-2. اربط المشروع بـ Netlify
-3. اضبط إعدادات البناء
-
-### الاستضافة التقليدية
-
-```bash
-npm run build
-```
-
-ثم ارفع محتويات مجلد `build/` إلى خادم الويب.
-
 ## الدعم
 
 إذا واجهت أي مشاكل أو لديك أسئلة:
 
-- 📧 البريد الإلكتروني: support@tradingbot.com
+- 📧 البريد الإلكتروني: support@trailing.bot
 - 📱 الهاتف: +966 50 123 4567
 - 💬 الدردشة المباشرة: متاحة على الموقع
 
