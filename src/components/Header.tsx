@@ -11,7 +11,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2 space-x-reverse">
             <TrendingUp className="h-8 w-8 text-primary-600" />
-            <span className="text-xl font-bold text-gray-900">بوت التداول الذكي</span>
+            <span className="text-xl font-bold text-gray-900">Trailing.bot</span>
           </div>
 
           {/* Desktop Navigation */}

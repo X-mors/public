@@ -19,8 +19,8 @@ const Features: React.FC = () => {
     },
     {
       icon: Shield,
-      title: "حماية متقدمة",
-      description: "نظام حماية متطور لحماية رأس المال وتقليل المخاطر"
+      title: "التريلينج ستوب المتطور",
+      description: "تقنية التريلينج ستوب المتطورة لحماية الأرباح وتقليل المخاطر"
     },
     {
       icon: Zap,
@@ -30,7 +30,7 @@ const Features: React.FC = () => {
     {
       icon: TrendingUp,
       title: "تحليل فني متقدم",
-      description: "تحليل شامل للرسوم البيانية والمؤشرات الفنية"
+      description: "تحليل شامل للرسوم البيانية مع تقنية التريلينج ستوب الذكية"
     },
     {
       icon: Clock,
@@ -40,12 +40,12 @@ const Features: React.FC = () => {
     {
       icon: BarChart3,
       title: "تقارير مفصلة",
-      description: "تقارير شاملة عن الأداء والأرباح والخسائر"
+      description: "تقارير شاملة عن الأداء والأرباح مع تحليل التريلينج ستوب"
     },
     {
       icon: Settings,
       title: "تخصيص كامل",
-      description: "إمكانية تخصيص إعدادات البوت حسب استراتيجيتك"
+      description: "إمكانية تخصيص إعدادات التريلينج ستوب حسب استراتيجيتك"
     },
     {
       icon: Smartphone,
@@ -60,10 +60,10 @@ const Features: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            مميزات البوت المتقدمة
+            مميزات Trailing.bot المتقدمة
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            بوت التداول الذكي مصمم بأحدث التقنيات لضمان أفضل النتائج وأعلى الأرباح
+            بوت التداول الذكي مع تقنية التريلينج ستوب مصمم بأحدث التقنيات لضمان أفضل النتائج وأعلى الأرباح
           </p>
         </div>
 

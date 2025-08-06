@@ -10,12 +10,12 @@ const Hero: React.FC = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                بوت التداول الذكي
-                <span className="block text-primary-200">لأفضل النتائج</span>
+                Trailing.bot
+                <span className="block text-primary-200">بوت التداول الذكي</span>
               </h1>
               <p className="text-xl text-primary-100 leading-relaxed">
-                احصل على بوت تداول متقدم ومطور خصيصاً لتحقيق أعلى الأرباح في الأسواق المالية. 
-                يعمل على مدار الساعة لمراقبة الفرص وتنفيذ الصفقات بذكاء.
+                بوت تداول متقدم مع تقنية التريلينج ستوب المتطورة لتحقيق أعلى الأرباح في الأسواق المالية. 
+                يحمي أرباحك تلقائياً ويعمل على مدار الساعة لمراقبة الفرص.
               </p>
             </div>
 
